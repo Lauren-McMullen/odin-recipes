@@ -38,7 +38,7 @@
     text-decoration: none;
 }
 
-.recipe {
+.recipe-span {
     color: whitesmoke;
     font-family: "Helvetica", sans-serif;
     text-align: center;
@@ -47,7 +47,7 @@
     
 }
 
-.recipe span:hover {
+.recipe-span span:hover {
     text-decoration:underline;
     font-weight: bold;
 }
@@ -56,5 +56,42 @@
     padding-top: 10px;
 }
 
+.recipe-title {
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Helvetica", sans-serif;
+}
 
+.return-home {
+    font-family: "Helvetica", sans-serif;
+    text-decoration: none;
+    font-weight: 200;
+    color: black;
+}
 
+.return-home span:hover{
+    text-decoration: underline;
+}
+
+.recipe-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.recipe-credit {
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+}
+
+.recipe-body {
+    text-align: center;
+    margin: 20px;
+    padding: 5 px;
+    font-family: "Helvetica", sans-serif;
+}
