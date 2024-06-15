@@ -67,11 +67,18 @@
 .return-home {
     font-family: "Helvetica", sans-serif;
     text-decoration: none;
-    font-weight: 200;
+    font-weight: bold;
+    margin: 15px;
+    font-size: 20px;
     color: black;
+    padding: 8px;
+    display: block;
+    width: 150px;
+    text-align: center;
+    border: 2px solid black;
 }
 
-.return-home span:hover{
+.return-home:hover{
     text-decoration: underline;
 }
 
@@ -90,8 +97,35 @@
 }
 
 .recipe-body {
-    text-align: center;
-    margin: 20px;
-    padding: 5 px;
     font-family: "Helvetica", sans-serif;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: left;
 }
+
+.subtitle {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.recipe-description {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.ingredient-list, .steps {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 30px;
+    list-style-position: inside;
+}
+
+.specific {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-decoration: underline;   
+}
+
